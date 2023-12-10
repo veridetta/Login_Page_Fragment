@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Login Page &amp; Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="object_oriented_analysis_design"><![CDATA[Object Oriented Analysis & Design]]></string>
+    <string name="structured_system_analysis_design"><![CDATA[Structured System Analysis & Design]]></string>
+    <string name="uml_diagram_use_case_activity_orm_class_sequence_dfd_efd_flowchart"><![CDATA[UML (Diagram Use Case, Activity, ORM, Class, & Sequence), DFD, EFD, Flowchart]]></string>
+</resources>

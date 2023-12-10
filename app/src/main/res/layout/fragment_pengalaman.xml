@@ -1,0 +1,285 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:padding="6dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:padding="6dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:text="PROFIL PENGALAMAN"
+                android:textColor="@color/primary"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/primary"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:orientation="horizontal">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="2,3">
+
+                <!-- Header table -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table_header"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_table_header"
+                        android:padding="4dp"
+                        android:text="Pengalaman"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_table_header"
+                        android:padding="4dp"
+                        android:text="Periode"
+                        android:textStyle="bold"/>
+                </TableRow>
+
+                <!-- Data -->
+                <TableRow>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="1"/>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="Student Ambassador"/>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:padding="6dp"
+                        android:background="@drawable/border_table"
+                        android:text="2018-2020"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="2"/>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="Fanta Seminar"/>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="2019 Gasal"/>
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="3"/>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="Fanta Workshop"/>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="2019 Gasal"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="4"/>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="Pengurus HIMA SIF"/>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="2019-2020"/>
+
+                </TableRow>
+                <TableRow android:layout_width="match_parent">
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="5"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="11dp"
+                        android:background="@drawable/border_table"
+                        android:text="Asisten Lab Fondasi Pemrograman"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="11dp"
+                        android:background="@drawable/border_table"
+                        android:text="2019 Gasal"/>
+                </TableRow>
+                <TableRow android:layout_width="match_parent">
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="6"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="11dp"
+                        android:background="@drawable/border_table"
+                        android:text="Asisten Lab Sistem Basis Data"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="11dp"
+                        android:background="@drawable/border_table"
+                        android:text="2019 Genap"/>
+                </TableRow>
+                <TableRow android:layout_width="match_parent">
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="7"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="11dp"
+                        android:background="@drawable/border_table"
+                        android:text="Asisten Dosen Fondasi Pemrograman"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="11dp"
+                        android:background="@drawable/border_table"
+                        android:text="2020 Gasal"/>
+                </TableRow>
+                <TableRow android:layout_width="match_parent">
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="8"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="11dp"
+                        android:background="@drawable/border_table"
+                        android:text="Asisten Dosen Sistem Basis Data"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="11dp"
+                        android:background="@drawable/border_table"
+                        android:text="2020 Genap"/>
+                </TableRow>
+                <TableRow android:layout_width="match_parent">
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="7"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="11dp"
+                        android:background="@drawable/border_table"
+                        android:text="Anggota DPM"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="11dp"
+                        android:background="@drawable/border_table"
+                        android:text="2020-Sekarang"/>
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,239 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:padding="6dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:padding="6dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:text="PROFIL KEAHLIAN"
+                android:textColor="@color/primary"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/primary"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:orientation="horizontal">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="2,3">
+
+                <!-- Header table -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table_header"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_table_header"
+                        android:padding="4dp"
+                        android:text="Keahlian"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_table_header"
+                        android:padding="4dp"
+                        android:text="Item"
+                        android:textStyle="bold"/>
+                </TableRow>
+
+                <!-- Data -->
+                <TableRow>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="1"/>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="Analisis"/>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:padding="6dp"
+                        android:background="@drawable/border_table"
+                        android:text="@string/object_oriented_analysis_design"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="2"/>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="Analisis"/>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="@string/structured_system_analysis_design"/>
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="3"/>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="Perangkat Analisis"/>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="@string/uml_diagram_use_case_activity_orm_class_sequence_dfd_efd_flowchart"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="4"/>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="Bahasa Pemrograman"/>
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="Python, Java, C#, HTML, Javascript, CSS, PHP, Nodejs"/>
+
+                </TableRow>
+                <TableRow android:layout_width="match_parent">
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="5"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="11dp"
+                        android:background="@drawable/border_table"
+                        android:text="IDE Pemgrograman"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="11dp"
+                        android:background="@drawable/border_table"
+                        android:text="Intelij,Netbeans IDLE, Notepade++, Sublime, VSCode, QPython3, Android Studio"/>
+                </TableRow>
+                <TableRow android:layout_width="match_parent">
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="6"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="11dp"
+                        android:background="@drawable/border_table"
+                        android:text="Basis Data"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="11dp"
+                        android:background="@drawable/border_table"
+                        android:text="Ms. Access, SQL Server, MySql, JSON, SQLITE"/>
+                </TableRow>
+                <TableRow android:layout_width="match_parent">
+                    <TextView
+                        android:textSize="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:background="@drawable/border_table"
+                        android:text="7"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:textSize="11dp"
+                        android:background="@drawable/border_table"
+                        android:text="Editor Gambar"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="11dp"
+                        android:background="@drawable/border_table"
+                        android:text="Paint, Adobe Photoshop, GIMP"/>
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
